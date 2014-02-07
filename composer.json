@@ -1,0 +1,32 @@
+{
+    "name": "bodaclick/async-event-dispatcher",
+    "type": "library",
+    "description": "Library to asincronously dispatch events",
+    "keywords": ["async", "dispatcher", "event dispatcher"],
+    "homepage": "http://github.com/Bodaclick",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduardo Gulias Davis",
+            "homepage": "http://www.egulias.com",
+            "role": "Lead Developer"
+        },
+        {
+            "name": "Marco Ferrari",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "jms/serializer-bundle": "0.13.*@dev"
+    },
+    "require-dev": {
+        "oldsound/rabbitmq-bundle": "dev-master"
+    },
+
+    "autoload": {
+        "psr-0": { "BDK\\": "src/" }
+    },
+    "target-dir": "BDK/AsyncEventDispatcher"
+}
