@@ -18,13 +18,17 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3.3",
+        "php": ">=5.4.0",
         "jms/serializer-bundle": "0.13.*@dev"
     },
     "require-dev": {
         "oldsound/rabbitmq-bundle": "dev-master"
     },
-
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
     "autoload": {
         "psr-0": { "BDK\\": "src/" }
     },

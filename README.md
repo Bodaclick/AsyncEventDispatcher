@@ -1,4 +1,4 @@
-AsyncEventDispatcher
+AsyncEventDispatcher  [![Build Status](https://api.travis-ci.org/Bodaclick/AsyncEventDispatcher.png?branch=master)](https://travis-ci.org/Bodaclick/AsyncEventDispatcher)
 =====================
 
 This lib is intended to allow for multiple "drivers" (a.k.a listeners) that publish
