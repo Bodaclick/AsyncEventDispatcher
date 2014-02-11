@@ -31,6 +31,5 @@
     },
     "autoload": {
         "psr-0": { "BDK\\AsyncEventDispatcher": "src/" }
-    },
-    "target-dir": "BDK/AsyncEventDispatcher"
+    }
 }
