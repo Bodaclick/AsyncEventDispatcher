@@ -80,4 +80,11 @@ class AsyncEventDispatcherTest extends \PHPUnit_Framework_TestCase
 
         $this->assertFalse($dispatcher->hasDriver('mock.driver'));
     }
+    
+    public function testGetEvents()
+    {
+        $dispatcher = new AsyncEventDispatcher();
+        $dispatcher->addDriver($this->driverMock, 'testName');
+        $this->assertCount(1, $dispatcher->getEvents());
+    }
 }

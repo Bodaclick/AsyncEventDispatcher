@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "53f92e30527b69b2420e1299a1b415e1",
+    "hash": "0df01b79e54de766e9bf403d2b478c16",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -227,12 +227,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/serializer.git",
-                "reference": "c93adad8a34e8d06c296b212b8c36cf98f5458e7"
+                "reference": "4a49caf0a20babcf8040fb1cf84f26faff6e7d85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/c93adad8a34e8d06c296b212b8c36cf98f5458e7",
-                "reference": "c93adad8a34e8d06c296b212b8c36cf98f5458e7",
+                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/4a49caf0a20babcf8040fb1cf84f26faff6e7d85",
+                "reference": "4a49caf0a20babcf8040fb1cf84f26faff6e7d85",
                 "shasum": ""
             },
             "require": {
@@ -276,7 +276,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -289,7 +289,7 @@
                 "serialization",
                 "xml"
             ],
-            "time": "2014-02-05 08:00:03"
+            "time": "2014-02-10 11:00:05"
         },
         {
             "name": "jms/serializer-bundle",
@@ -298,12 +298,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/JMSSerializerBundle.git",
-                "reference": "bb15db3e661168f4310fad48b86915ff1ca33795"
+                "reference": "ca66cd3ace6bea5367838c6dfb00a6a0bacb8a79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/JMSSerializerBundle/zipball/bb15db3e661168f4310fad48b86915ff1ca33795",
-                "reference": "bb15db3e661168f4310fad48b86915ff1ca33795",
+                "url": "https://api.github.com/repos/schmittjoh/JMSSerializerBundle/zipball/ca66cd3ace6bea5367838c6dfb00a6a0bacb8a79",
+                "reference": "ca66cd3ace6bea5367838c6dfb00a6a0bacb8a79",
                 "shasum": ""
             },
             "require": {
@@ -346,7 +346,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -359,7 +359,7 @@
                 "serialization",
                 "xml"
             ],
-            "time": "2013-12-05 14:36:11"
+            "time": "2014-02-09 12:04:09"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -708,7 +708,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -847,12 +849,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "70ab340b31615dbf95727cb2246c784f04da837d"
+                "reference": "ddc6db30611ebea269434dfb1a53f365bfcbdd1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/70ab340b31615dbf95727cb2246c784f04da837d",
-                "reference": "70ab340b31615dbf95727cb2246c784f04da837d",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/ddc6db30611ebea269434dfb1a53f365bfcbdd1a",
+                "reference": "ddc6db30611ebea269434dfb1a53f365bfcbdd1a",
                 "shasum": ""
             },
             "require": {
@@ -879,7 +881,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -888,7 +892,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2014-02-03 17:15:42"
+            "time": "2014-02-11 13:52:21"
         },
         {
             "name": "symfony/http-kernel",
@@ -897,12 +901,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "1556ebb9b91e2be351024aa2560c5f5f9042e814"
+                "reference": "932128b873724178aaec432b05a268c6bc334a78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/1556ebb9b91e2be351024aa2560c5f5f9042e814",
-                "reference": "1556ebb9b91e2be351024aa2560c5f5f9042e814",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/932128b873724178aaec432b05a268c6bc334a78",
+                "reference": "932128b873724178aaec432b05a268c6bc334a78",
                 "shasum": ""
             },
             "require": {
@@ -950,7 +954,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -959,7 +965,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2014-02-04 15:16:44"
+            "time": "2014-02-11 13:52:21"
         },
         {
             "name": "symfony/routing",
@@ -1010,7 +1016,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -1078,7 +1086,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -1287,7 +1297,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -1455,7 +1467,7 @@
         "oldsound/rabbitmq-bundle": 20
     },
     "platform": {
-        "php": ">=5.3.3"
+        "php": ">=5.4.0"
     },
     "platform-dev": [
 

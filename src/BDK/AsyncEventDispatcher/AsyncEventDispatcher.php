@@ -98,4 +98,14 @@ class AsyncEventDispatcher implements AsyncEventDispatcherInterface
     {
         return (bool) count($this->events[$eventName]);
     }
+    
+    /**
+     * get the registerd events
+     * 
+     * @return array of events
+     */
+    public function getEvents()
+    {
+        return $this->events;
+    }
 }
